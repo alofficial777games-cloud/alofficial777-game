@@ -139,10 +139,6 @@
         winAmount = data.reward;
         startGame();
       })
-      .catch(err => {
-        console.error(err);
-        message.textContent = "❌ Server-ի հետ կապ չկա";
-      });
 
     function startGame() {
       gameOver = false;
